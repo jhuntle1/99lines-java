@@ -1,26 +1,9 @@
-var jobs = [
-    {
-        companyName:'mcDonalds',
-        position: 'chef',
-        description: 'i made hamburgers'
+var friends = ['Bean ', 'Pierre ', 'Miesha ', 'Brandon ', 'Rayshawn '];
+for (x=0;x<friends.length; x++){
+    for (i=99; i > 1; i--) {
 
-    },
-    {
-        companyName: 'burger king',
-        position: 'sous chef',
-        descriotion: 'i hand out cheeseburgers'
-    },
-    {
-        commpanyName: 'Taco bell',
-        position: 'sauceier',
-        description: 'i hand out sauce'
-    }
+        console.log([i] + ' lines of code in the file,' + ' ' + [i]+ ' ' + 'lines of code,' + ' ' + friends[x] + ' ' + 'strikes one out, clears it all out, ' + [i] + ' lines of code on the wall');
     
-];
-
-function displayPosition(jobsArray) {
-    for (var i = 0; i < jobsArray.length;);
+    }
+    console.log([i] + ' line of code in the file,' + ' ' + [i] +' line of code, ' + friends[x] + ' strikes one out, clears it all out, ' +[i] + ' line of code on the wall');
 }
-
-
-var jobs 
